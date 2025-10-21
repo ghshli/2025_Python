@@ -1,9 +1,9 @@
 from tkinter import *
 
 def callback():
-    ''''''
+    '''
     콜백 함수: 버튼이 클릭되면 호출되어 버튼의 텍스트를 번경한다.
-    ''''''
+    '''
     button["text"] = "버튼이 클릭되었음!"
 
 root = Tk()

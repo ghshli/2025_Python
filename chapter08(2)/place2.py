@@ -2,9 +2,9 @@ from tkinter import *
 from random import randint
 
 def place_random_buttons():
-    ''''''
+    '''
     임의의 위치와 크기로 버튼을 배치하는 함수
-    ''''''
+    '''
     for button in buttons:
         x = randint(50,400)
         y = randint(50,250)
